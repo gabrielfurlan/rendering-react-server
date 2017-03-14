@@ -4,15 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/index.js --exec babel-node --presets react"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
     "express": "^4.15.2",
     "import-export": "^1.0.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-router": "<4.0.0",
     "webpack": "^2.2.1"
   }
 }
